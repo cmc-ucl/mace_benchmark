@@ -1,5 +1,6 @@
 # tmp
 data/crystal/AlGaN/super3/output_files/*
+data/crystal/AlGaN/super3/extxyz_files/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
