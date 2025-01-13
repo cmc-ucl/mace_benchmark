@@ -1,0 +1,8 @@
+invariants_only: True
+calc_per_element: True
+calc_per_atom: True
+arch: mace_mp
+device: cpu
+model_path: medium-mpa-0
+tracker: False
+

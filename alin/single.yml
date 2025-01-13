@@ -1,0 +1,4 @@
+device: cpu
+arch: mace_mp
+calc-kwargs:
+  model: medium-0b3
