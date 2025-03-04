@@ -1,0 +1,44 @@
+name: AlGaN-medium-0b3
+foundation_model: /Users/brunocamino/Desktop/UCL/mace_benchmark/models/mace-mp-0b3-medium.model
+multiheads_finetuning: True
+foundation_filter_elements: True
+foundation_model_readout: True
+loss: universal
+heads:
+  pbe:
+    train_file: AlGaN-train.xyz
+    valid_file: AlGaN-valid.xyz
+    test_file: AlGaN-test.xyz
+    E0s: isolatedAtom
+pt_train_file: mp
+energy_weight: 1.0
+forces_weight: 10.0
+stress_weight: 10.0
+stress_key: dft_stress
+energy_key: dft_energy
+forces_key: dft_forces
+model: "ScaleShiftMACE"
+compute_stress: True
+compute_forces: True
+clip_grad: 10 # Clippin the gradients if they are larger than a threshold
+error_table: PerAtomRMSE
+lr: 0.001 # Think of this as FMIXING
+scaling: rms_forces_scaling
+batch_size: 16 # How many structures are processed before the model is updated
+max_num_epochs: 100 # How many times all data go through the model
+ema: True # It keeps in memory the wirghts from past epochs
+ema_decay: 0.999
+#save_all_checkpoints: True
+##scheduler_patience: 5
+patience: 50 # Hoe many epochs to wait when it stops improving
+amsgrad: True
+default_dtype: float64
+device: cpu 
+restart_latest: True
+seed: 2025
+keep_isolated_atoms: True
+#keep_checkpoints: True
+save_cpu: True
+weight_decay: 1e-8
+eval_interval: 2
+enable_cueq: True
