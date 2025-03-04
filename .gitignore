@@ -1,6 +1,8 @@
 # tmp
 data/crystal/AlGaN/super3/output_files/*
-data/crystal/AlGaN/super3/extxyz_files/
+data/crystal/AlGaN/super3/extxyz_files/*
+data/crystal/AlGaN/super3/concatenated_files/*
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -167,3 +169,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 data/bulk_structures/.DS_Store
+data/crystal/AlGaN/super3/concatenated_files/AlGaN_super3_all.xyz
