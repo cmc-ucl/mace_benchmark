@@ -1,0 +1,9 @@
+1
+Lattice="10.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0" Properties=species:S:1:pos:R:3:dft_forces:R:3 dft_energy=-6589.117430582 dft_stress="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0" config_type=IsolatedAtom system_name=Al pbc="T T T"
+Al       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000
+1
+Lattice="10.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0" Properties=species:S:1:pos:R:3:dft_forces:R:3 dft_energy=-52368.06134899 dft_stress="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0" config_type=IsolatedAtom system_name=Ga pbc="T T T"
+Ga       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000
+1
+Lattice="10.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0" Properties=species:S:1:pos:R:3:dft_forces:R:3 dft_energy=-1483.705316803 dft_stress="0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0" system_name=N config_type=IsolatedAtom pbc="T T T"
+N        0.00000000       0.00000000       0.00000000       0.00000000       0.00000000       0.00000000
