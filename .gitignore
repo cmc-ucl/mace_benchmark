@@ -2,6 +2,9 @@
 data/crystal/AlGaN/super3/output_files/*
 data/crystal/AlGaN/super3/extxyz_files/*
 data/crystal/AlGaN/super3/concatenated_files/*
+data/crystal/lts/output_files/*
+data/crystal/lts/extxyz_files/*
+data/crystal/lts/concatenated_files/*
 
 
 # Byte-compiled / optimized / DLL files
