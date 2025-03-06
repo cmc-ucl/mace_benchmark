@@ -3,6 +3,6 @@ calc_per_element: True
 calc_per_atom: True
 arch: mace_mp
 device: cpu
-model_path: /Users/brunocamino/Desktop/UCL/mace_benchmark/mace-mpa-0-medium.model
+model_path: /Users/brunocamino/Desktop/UCL/mace_benchmark/models/mace-mpa-0-medium.model
 tracker: False
 
