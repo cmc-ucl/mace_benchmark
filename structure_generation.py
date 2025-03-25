@@ -141,7 +141,7 @@ def write_CRYSTAL_gui_from_data(lattice_matrix,atomic_numbers,
     for row in identity:
         input_data.append(' '.join(f'{val:.6f}' for val in row)+'\n')
     input_data.append('0.000000 0.000000 0.000000\n')
-    input_data.append(f'{len(positions)}\n')
+    input_data.append(f'{len(cart_coords)}\n')
     for row, row2 in zip(atomic_numbers, cart_coords):
         input_data.append(f'{row} '+' '.join(f'{val:.6f}' for val in row2)+'\n')
     input_data.append('0 0')
