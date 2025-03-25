@@ -5,11 +5,14 @@ data/crystal/AlGaN/super3/concatenated_files/*
 data/crystal/AlGaN/pbe0/output_files/*
 data/crystal/AlGaN/pbe0/extxyz_files/*
 data/crystal/AlGaN/pbe0/concatenated_files/*
+data/crystal/AlGaN/isolated_atoms/pbe0
 data/crystal/lts/output_files/*
 data/crystal/lts/extxyz_files/*
 data/crystal/lts/concatenated_files/*
 data/crystal/lts/isolated_atoms/*
 data/crystal/.DS_Store
+
+data/fine_tuning/1000/sa/dft/*
 
 
 # Byte-compiled / optimized / DLL files
